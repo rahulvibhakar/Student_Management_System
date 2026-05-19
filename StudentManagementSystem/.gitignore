@@ -1,0 +1,82 @@
+# .NET
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.obj
+*.o
+
+# Visual Studio
+.vs/
+.vscode/
+*.sln.iml
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Entity Framework
+Migrations/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React
+build/
+dist/
+.env.local
+.env.*.local
+
+# Environment files
+.env
+appsettings.Development.json
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+coverage/
+.nyc_output/
+
+# Logs
+logs/
+*.log
+
+# Dependencies
+packages/
+
+# SSL Certificates
+*.pfx
+*.cer
+
+# Database
+*.mdf
+*.ldf
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# wwwroot (built frontend)
+wwwroot/*
+!wwwroot/.gitkeep
